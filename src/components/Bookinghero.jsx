@@ -3,11 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 //images
 import bankbooking from '../images/Bank2.svg';
+import bgbooking from '../images/bgbooking.png';
+
 
 function Bookinghero() {
     return (
         <>
-            <div className="pt-[9rem] min-h-screen bg-cover bg-[url('../images/bgbooking.png')]">
+            <div className="pt-[9rem] min-h-screen bg-cover" style={{backgroundImage: `url(${bgbooking})`}}>
                 <div className="container mx-auto text-center">
                     <div className="text-white text-xl md:text-2xl font-bold md:font-extrabold">
                         <h1>BOOKING PROCEDURES AND PRICES</h1>
@@ -58,7 +60,7 @@ function Bookinghero() {
                         </div>
                     </div>
 
-                    <div className="w-2/3 flex justify-center items-center md:w-full mx-auto">
+                    <div className="w-2/3 flex justify-center items-center md:w-full mx-auto md:pb-12">
                         <img src={bankbooking} alt="ธนาคาร" />
                     </div>
                 </div>
