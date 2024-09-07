@@ -17,7 +17,7 @@ function Nav() {
                     <div className="container mx-auto px-7 md:px-0">
                         <div className="flex justify-between items-center text-white">
                             <div className="text-xl md:text-2xl font-bold">
-                                <h1 className='hover:text-red-600'><Link to='/'><img src={logo} alt="logo" /></Link></h1>
+                                <h1 className='hover:text-red-600'><Link to='/'><img src={logo} alt="logo" className='w-2/3' /></Link></h1>
                             </div>
 
                             {/* ToggleMenuButton */}

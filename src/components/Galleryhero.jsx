@@ -116,7 +116,7 @@ function Gallery() {
     return (
         <>
 
-            <div className="bg-gray-800 mt-[5rem] px-4 pb-4 pt-10 md:p-8">
+            <div className="bg-gray-800 mt-[7rem] w-1/2 mx-auto rounded-lg py-4 md:p-8">
                 <h1 className='text-center text-white text-lg md:text-3xl font-semibold md:font-bold'>
                     Galley | แกเลอรี่
                 </h1>
