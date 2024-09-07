@@ -2,12 +2,12 @@ import { faFacebook, faLine, faSquareFontAwesomeStroke } from '@fortawesome/free
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 //images
-import bgbooking from '../images/Bank2.svg';
+import bankbooking from '../images/Bank2.svg';
 
 function Bookinghero() {
     return (
         <>
-            <div className="pt-[9rem] min-h-screen bg-cover bg-[url('src/images/bgbooking.png')]">
+            <div className="pt-[9rem] min-h-screen bg-cover bg-[url('../images/bgbooking.png')]">
                 <div className="container mx-auto text-center">
                     <div className="text-white text-xl md:text-2xl font-bold md:font-extrabold">
                         <h1>BOOKING PROCEDURES AND PRICES</h1>
@@ -59,7 +59,7 @@ function Bookinghero() {
                     </div>
 
                     <div className="w-2/3 flex justify-center items-center md:w-full mx-auto">
-                        <img src={bgbooking} alt="ธนาคาร" />
+                        <img src={bankbooking} alt="ธนาคาร" />
                     </div>
                 </div>
             </div>
