@@ -49,7 +49,7 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="p-4">
           <div className="container mx-auto">
             <div className="text-3xl font-extrabold text-center text-white pb-7">
               <h1>สถานที่ท่องเที่ยว</h1>

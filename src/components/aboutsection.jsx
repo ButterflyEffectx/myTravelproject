@@ -7,7 +7,7 @@ function AboutSection() {
     return (
         <>
         
-            <div className="py-7 bg-[url('/src/images/backgruond.png')] bg-gray-400 bg-blend-multiply bg-cover bg-center">
+            <div className="px-4 py-7 bg-[url('/src/images/backgruond.png')] bg-gray-400 bg-blend-multiply bg-cover bg-center">
                 <div className="flex flex-col justify-center items-center space-y-8 container mx-auto">
                     <div className="text-center text-white py-3 text-xl md:text-3xl font-bold">
                         <h1>“ให้เราเลือกทริปของคุณจะไม่ผิดหวัง บริการไว้ใจเรา”<hr className='mt-3 mb-3'/>
