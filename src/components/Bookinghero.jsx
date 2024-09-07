@@ -60,7 +60,7 @@ function Bookinghero() {
                         </div>
                     </div>
 
-                    <div className="w-2/3 flex justify-center items-center md:w-full mx-auto md:pb-12">
+                    <div className="w-2/3 flex justify-center items-center md:w-full mx-auto md:pb-12 pb-7">
                         <img src={bankbooking} alt="ธนาคาร" />
                     </div>
                 </div>
