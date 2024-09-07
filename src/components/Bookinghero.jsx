@@ -18,7 +18,7 @@ function Bookinghero() {
                     <div className="text-xl md:text-2xl text-white font-bold">
                         <h3>ขั้นตอนการจองและราคา</h3>
                     </div>
-                    <div className="relative bg-cover bg-center p-6" style={{ backgroundImage: `url('/path-to-your-background-image.jpg')` }}>
+                    <div className="relative bg-cover bg-center p-6">
                         {/* Glass effect container */}
                         <div className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg flex flex-col md:flex-row justify-between gap-8">
 
