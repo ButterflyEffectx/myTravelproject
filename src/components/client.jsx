@@ -1,3 +1,8 @@
+import client1 from '../images/review1.svg'
+import client2 from '../images/review2.svg'
+import client3 from '../images/review3.svg'
+import star from '../images/star.png'
+
 
 function Client() {
     return (
@@ -6,33 +11,37 @@ function Client() {
                 <h2 className="text-2xl text-white font-bold text-center mb-8">What Our Clients Say</h2>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                        <p className="text-gray-600 mb-4">บริการยอดเยี่ยมและรวดเร็วมาก!</p>
+                        <p className="text-gray-600 mb-4 lg:text-center">บริการประทับใจ
+                            ไว้ใจได้ตลอดทุกระยะเส้นทาง
+                            ที่ใช้บริการ
+                        </p>
                         <div className="flex items-center">
-                            <img className="w-10 h-10 rounded-full mr-4" src="client1.jpg" alt="Client 1"/>
-                                <div>
-                                    <p className="text-sm font-semibold">John Doe</p>
-                                    <p className="text-sm text-gray-500">CEO, Company</p>
-                                </div>
+                            <img className="w-10 h-10 rounded-full mr-4" src={client1} alt="Client 1" />
+                            <div>
+                                <p className="text-sm font-semibold ">Pom Teetouch</p>
+                                <img className="w-2/3 lg:w-4/5" src={star} alt="star" />
+                            </div>
                         </div>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                        <p className="text-gray-600 mb-4">ทำงานอย่างมืออาชีพและเข้าใจความต้องการของลูกค้า</p>
+                        <p className="text-gray-600 mb-4 lg:text-center">สนุกดีเยี่ยมแนะนำเลยค่ะ</p>
                         <div className="flex items-center">
-                            <img className="w-10 h-10 rounded-full mr-4" src="client2.jpg" alt="Client 2"/>
-                                <div>
-                                    <p className="text-sm font-semibold">Jane Smith</p>
-                                    <p className="text-sm text-gray-500">CTO, Another Company</p>
-                                </div>
+                            <img className="w-10 h-10 rounded-full mr-4" src={client2} alt="Client 2" />
+                            <div>
+                                <p className="text-sm font-semibold">Anny panya</p>
+                                <img className="w-2/3 lg:w-4/5" src={star} alt="star" />
+                            </div>
                         </div>
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                        <p className="text-gray-600 mb-4">ประสบการณ์ที่ยอดเยี่ยม! ขอบคุณทีมงาน</p>
+                        <p className="text-gray-600 mb-4 lg:text-center">รถใหม่สะอาดบริการดีประทับใจ
+                        </p>
                         <div className="flex items-center">
-                            <img className="w-10 h-10 rounded-full mr-4" src="client3.jpg" alt="Client 3"/>
-                                <div>
-                                    <p className="text-sm font-semibold">Sam Wilson</p>
-                                    <p className="text-sm text-gray-500">COO, Example Co.</p>
-                                </div>
+                            <img className="w-10 h-10 rounded-full mr-4" src={client3} alt="Client 3" />
+                            <div>
+                                <p className="text-sm font-semibold">Nuttanont P</p>
+                                <img className="w-2/3 lg:w-4/5" src={star} alt="star" />
+                            </div>
                         </div>
                     </div>
                 </div>
