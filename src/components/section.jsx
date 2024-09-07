@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { initFlowbite } from 'flowbite';
-import banner from '../Images/Banner.svg';
-import bodyimg1 from "../Images/bodyimg1.svg";
+import banner from '../images/Banner.svg';
+import bodyimg1 from "../images/bodyimg1.svg";
 import 'flowbite';
 
 

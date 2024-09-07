@@ -1,4 +1,4 @@
-import imgAbout1 from '../Images/imgAbout1.jpg'
+import imgAbout1 from '../images/imgAbout1.jpg'
 import Client from './client'
 
 function AboutSection() {
