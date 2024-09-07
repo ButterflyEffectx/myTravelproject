@@ -39,7 +39,7 @@ function Nav() {
 
                             <ul className="hidden md:flex justify-center gap-x-4 items-center">
                                 <Link to = '/' className='cursor-pointer hover:text-blue-500'>หน้าแรก</Link>
-                                <Link to = '/' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
+                                <Link to = '/About' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
                                 <Link to = '/Gallery' className='cursor-pointer hover:text-blue-500'>แกเลอรี่</Link>
                                 <Link to = '/Booking' className='cursor-pointer hover:text-blue-500'>การจอง</Link>
                                 <Link to = '/' className='cursor-pointer hover:text-blue-500'>ติดต่อ</Link>
@@ -52,7 +52,7 @@ function Nav() {
                         <div className="text-xl text-white text-center font-semibold mb-5"><span className='text-blue-600'>EOD</span>VIP</div>
                         <ul className="flex flex-col space-y-4">
                             <Link to = '/' className='cursor-pointer hover:text-blue-500'>หน้าแรก</Link>
-                            <Link to = '/' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
+                            <Link to = '/About' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
                             <Link to = '/Gallery' className='cursor-pointer hover:text-blue-500'>แกเลอรี่</Link>
                             <Link to = '/Booking' className='cursor-pointer hover:text-blue-500'>การจอง</Link>
                             <Link to = '/' className='cursor-pointer hover:text-blue-500'>ติดต่อ</Link>
