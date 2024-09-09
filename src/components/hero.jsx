@@ -41,13 +41,13 @@ function Hero() {
                 </Link>
               </div>
               <div className="w-24 flex flex-col items-center">
-                <Link to='https://line.me/ti/p/fechVFPHOI' target='blank'>
+                <Link to='https://www.facebook.com/profile.php?id=61551558142973' target='blank'>
                   <img src={fanpagelogo} alt="pagelogo" className='w-16 h-16 object-contain' />
                   <p className='text-white mt-2 font-bold'>Fanpage</p>
                 </Link>
               </div>
               <div className="w-24 flex flex-col items-center">
-                <Link to='https://www.facebook.com/profile.php?id=61551558142973' target='blank'>
+                <Link to='https://line.me/ti/p/fechVFPHOI' target='blank'>
                   <img src={linelogo} alt="linelogo" className='w-16 h-16 object-contain' />
                   <p className='text-white mt-2 font-bold'>Line</p>
                 </Link>
