@@ -13,9 +13,9 @@ function Nav() {
     return (
         <>
             <div className="relative">
-                <nav className='fixed top-0 left-0 w-full py-4 z-50'>
-                    <div className="container mx-auto px-7 md:px-0">
-                        <div className="flex justify-between items-center text-white">
+                <nav className='fixed top-0 left-0 w-full py-4 z-50 bg-black bg-opacity-20 rounded-lg shadow-lg'>
+                    <div className="container mx-auto px-7 md:px-0 ">
+                        <div className="flex justify-between items-center text-white ">
                             <div className="text-xl md:text-2xl font-bold">
                                 <h1 className='hover:text-red-600'><Link to='/'><img src={logo} alt="logo" className='w-2/3' /></Link></h1>
                             </div>
@@ -37,12 +37,11 @@ function Nav() {
                                 </button>
                             </div>
 
-                            <ul className="hidden md:flex justify-center gap-x-4 items-center">
+                            <ul className="hidden md:flex justify-center gap-x-4 items-center ">
                                 <Link to = '/' className='cursor-pointer hover:text-blue-500'>หน้าแรก</Link>
                                 <Link to = '/About' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
                                 <Link to = '/Gallery' className='cursor-pointer hover:text-blue-500'>แกเลอรี่</Link>
                                 <Link to = '/Booking' className='cursor-pointer hover:text-blue-500'>การจอง</Link>
-                                <Link to = '/' className='cursor-pointer hover:text-blue-500'>ติดต่อ</Link>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +54,6 @@ function Nav() {
                             <Link to = '/About' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
                             <Link to = '/Gallery' className='cursor-pointer hover:text-blue-500'>แกเลอรี่</Link>
                             <Link to = '/Booking' className='cursor-pointer hover:text-blue-500'>การจอง</Link>
-                            <Link to = '/' className='cursor-pointer hover:text-blue-500'>ติดต่อ</Link>
                         </ul>
                     </div>
                 </nav>

@@ -115,314 +115,315 @@ function Gallery() {
 
     return (
         <>
-
-            <div className="bg-gray-800 mt-[7rem] w-1/2 mx-auto rounded-lg py-4 md:p-8">
-                <h1 className='text-center text-white text-lg md:text-3xl font-semibold md:font-bold'>
-                    Galley | แกเลอรี่
-                </h1>
-            </div>
-            <div id="controls-carousel" className="p-5 md:p-12 relative w-full h-[250px] md:h-[600px] shadow-xl" data-carousel="static">
-                {/* Carousel wrapper */}
-                <div className="relative w-full h-full overflow-hidden rounded-lg">
-                    {/* Item 1 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-                        <img src={imgXX1} className="absolute inset-0 w-full h-full object-cover" alt="Banner" />
+            <div className="pt-[7rem]">
+                <div className="bg-gray-800 w-1/2 mx-auto rounded-lg py-4 md:p-8">
+                    <h1 className='text-center text-white text-lg md:text-3xl font-semibold md:font-bold'>
+                        Galley | แกเลอรี่
+                    </h1>
+                </div>
+                <div id="controls-carousel" className="p-5 md:p-12 relative w-full h-[250px] md:h-[600px] shadow-xl" data-carousel="static">
+                    {/* Carousel wrapper */}
+                    <div className="relative w-full h-full overflow-hidden rounded-lg">
+                        {/* Item 1 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
+                            <img src={imgXX1} className="absolute inset-0 w-full h-full object-cover" alt="Banner" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX2} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX3} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX4} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX5} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX6} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX7} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX8} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX9} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        {/* Item 2 */}
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX10} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
+                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src={imgXX11} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
+                        </div>
                     </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX2} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX3} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX4} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX5} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX6} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX7} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX8} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX9} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    {/* Item 2 */}
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX10} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={imgXX11} className="absolute inset-0 w-full h-full object-cover" alt="Body Image" />
-                    </div>
-                </div>
-                {/* Slider controls */}
-                <button type="button" className="hidden absolute top-0 start-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1 1 5l4 4" />
-                        </svg>
-                        <span className="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button" className="hidden absolute top-0 end-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
-                        </svg>
-                        <span className="sr-only">Next</span>
-                    </span>
-                </button>
-            </div>
-
-
-            <div className="p-5 grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX1} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX2} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX3} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX4} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX5} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX6} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX7} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX8} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX9} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX10} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX11} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX12} alt="Gallery"></img>
-                </div>
-                {/* Y-img */}
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY1} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY2} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY3} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY4} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY13} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY14} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY7} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY8} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY9} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY10} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY11} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY12} alt="Gallery"></img>
-                </div>
-                {/* X-img 13-25*/}
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX13} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX14} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX15} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX16} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX17} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX18} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX19} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX20} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX21} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX22} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX23} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX24} alt="Gallery"></img>
-                </div>
-                {/* Y-img 15-27*/}
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY15} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY16} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY17} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY18} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY19} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY20} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY21} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY22} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY23} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY2} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY1} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgY3} alt="Gallery"></img>
-                </div>
-                {/* X-img 25-37*/}
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX25} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX26} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX27} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX28} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX29} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX30} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX31} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX32} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX33} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX34} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX35} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX36} alt="Gallery"></img>
-                </div>
-                {/* X-img 38-50*/}
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX39} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX40} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX41} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX42} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX43} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX44} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX45} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX46} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX47} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX48} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX49} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX51} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX37} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX38} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX50} alt="Gallery"></img>
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg" src={imgX52} alt="Gallery"></img>
+                    {/* Slider controls */}
+                    <button type="button" className="hidden absolute top-0 start-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1 1 5l4 4" />
+                            </svg>
+                            <span className="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button" className="hidden absolute top-0 end-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
+                            </svg>
+                            <span className="sr-only">Next</span>
+                        </span>
+                    </button>
                 </div>
 
+
+                <div className="p-5 grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX1} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX2} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX3} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX4} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX5} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX6} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX7} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX8} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX9} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX10} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX11} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX12} alt="Gallery"></img>
+                    </div>
+                    {/* Y-img */}
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY1} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY2} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY3} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY4} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY13} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY14} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY7} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY8} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY9} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY10} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY11} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY12} alt="Gallery"></img>
+                    </div>
+                    {/* X-img 13-25*/}
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX13} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX14} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX15} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX16} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX17} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX18} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX19} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX20} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX21} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX22} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX23} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX24} alt="Gallery"></img>
+                    </div>
+                    {/* Y-img 15-27*/}
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY15} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY16} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY17} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY18} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY19} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY20} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY21} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY22} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY23} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY2} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY1} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgY3} alt="Gallery"></img>
+                    </div>
+                    {/* X-img 25-37*/}
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX25} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX26} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX27} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX28} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX29} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX30} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX31} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX32} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX33} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX34} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX35} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX36} alt="Gallery"></img>
+                    </div>
+                    {/* X-img 38-50*/}
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX39} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX40} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX41} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX42} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX43} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX44} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX45} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX46} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX47} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX48} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX49} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX51} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX37} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX38} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX50} alt="Gallery"></img>
+                    </div>
+                    <div>
+                        <img className="h-auto max-w-full rounded-lg" src={imgX52} alt="Gallery"></img>
+                    </div>
+
+                </div>
             </div>
 
         </>

@@ -2,6 +2,7 @@ import Client from './client'
 
 import car1 from '../images/car1.jpg'
 import car2 from '../images/car2.jpg'
+import carvideo from '../video/carvideo.mp4'
 
 function AboutSection() {
 
@@ -30,6 +31,9 @@ function AboutSection() {
                     </a>
                 </div>
                 <hr className='border-t-4 border-white my-4 w-4/5 mx-auto md:w-1/2'/>
+                <div className="flex justify-center items-center ">
+                    <video autoPlay muted loop className="object-cover w-full rounded-lg lg:w-2/3" src={carvideo} type="video/mp4"></video>
+                </div>
                 <Client/>
             </div>
         </>

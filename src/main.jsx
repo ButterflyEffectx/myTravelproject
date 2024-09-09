@@ -8,7 +8,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Booking from './pages/booking.jsx'
 import Gallery from './pages/gallery.jsx'
 import About from './pages/About.jsx'
-import Contact from './pages/Contact.jsx'
 
 const router = createBrowserRouter([
 
@@ -33,10 +32,7 @@ const router = createBrowserRouter([
   },
   
 
-  {
-    path: '/Contact',
-    element:<Contact/>
-  },
+
   
 ])
 createRoot(document.getElementById('root')).render(

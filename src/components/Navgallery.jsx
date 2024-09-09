@@ -13,7 +13,7 @@ function Navg() {
     return (
         <>
             <div className="relative">
-                <nav className='fixed top-0 left-0 w-full py-4 z-50 bg-slate-800'>
+                <nav className='fixed top-0 left-0 w-full py-4 z-50 bg-black bg-opacity-20 rounded-lg shadow-lg'>
                     <div className="container mx-auto px-7 md:px-0">
                         <div className="flex justify-between items-center text-white">
                             <div className="text-xl md:text-2xl font-bold">
@@ -42,7 +42,6 @@ function Navg() {
                                 <Link to = '/About' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
                                 <Link to = '/Gallery' className='cursor-pointer hover:text-blue-500'>แกเลอรี่</Link>
                                 <Link to = '/Booking' className='cursor-pointer hover:text-blue-500'>การจอง</Link>
-                                <Link to = '/' className='cursor-pointer hover:text-blue-500'>ติดต่อ</Link>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +54,6 @@ function Navg() {
                             <Link to = '/About' className='cursor-pointer hover:text-blue-500'>เกี่ยวกับเรา</Link>
                             <Link to = '/Gallery' className='cursor-pointer hover:text-blue-500'>แกเลอรี่</Link>
                             <Link to = '/Booking' className='cursor-pointer hover:text-blue-500'>การจอง</Link>
-                            <Link to = '/' className='cursor-pointer hover:text-blue-500'>ติดต่อ</Link>
                         </ul>
                     </div>
                 </nav>

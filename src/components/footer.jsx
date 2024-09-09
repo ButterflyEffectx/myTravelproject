@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div className="bg-gray-950">
             <div className="container mx-auto text-white">
-                <h1 className='p-3 md:text-base text-center md:font-medium '>Copyright ©2024, Design by nom Coding by Peeraphat</h1>
+                <h1 className='p-3 md:text-base text-center md:font-medium '>Copyright ©2024, Design by <a href="https://github.com/panat0" className='underline' target='blank'>Nom</a> Coding by <a href="https://github.com/ButterflyEffectx" className='underline' target='blank'>Peeraphat</a></h1>
             </div>
         </div>
     </>
