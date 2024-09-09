@@ -35,19 +35,19 @@ function Hero() {
             </div>
             <div className="flex py-7 md:py-10 justify-center items-center space-x-3 md:space-x-6 text-black">
               <div className="w-24 flex flex-col items-center">
-                <Link>
+                <Link to='https://www.facebook.com/krachaphat' target='blank'>
                   <img src={facebooklogo} alt="facelogo" className='w-16 h-16 object-contain ' />
                   <p className='text-white mt-2 font-bold'>Facebook</p>
                 </Link>
               </div>
               <div className="w-24 flex flex-col items-center">
-                <Link>
+                <Link to='https://line.me/ti/p/fechVFPHOI' target='blank'>
                   <img src={fanpagelogo} alt="pagelogo" className='w-16 h-16 object-contain' />
                   <p className='text-white mt-2 font-bold'>Fanpage</p>
                 </Link>
               </div>
               <div className="w-24 flex flex-col items-center">
-                <Link>
+                <Link to='https://www.facebook.com/profile.php?id=61551558142973' target='blank'>
                   <img src={linelogo} alt="linelogo" className='w-16 h-16 object-contain' />
                   <p className='text-white mt-2 font-bold'>Line</p>
                 </Link>
